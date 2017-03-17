@@ -28,7 +28,7 @@ http.createServer(function (request, response) {
         'Content-Type': 'text/plain',
         'Access-Control-Allow-Origin' : '*'
     });
-    response.end('Yes lad\n');
+    response.end('<a href="index.html">Go to index.html</a>');
 }).listen(8000);
 ```
 

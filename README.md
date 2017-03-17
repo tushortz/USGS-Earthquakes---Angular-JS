@@ -8,7 +8,7 @@ A simple Angular JS Project to retrieve and display earthquake geojson data
 
 Open the terminal and navigate to the folder where `index.html` is and run this command:
 
-```sh
+```shell
 $ python -m SimpleHTTPServer 8000
 ```
 
@@ -34,7 +34,7 @@ http.createServer(function (request, response) {
 
 Save and open the terminal. Navigate to the index.html directory and run:
 
-```sh
+```shell
 node server.js
 ```
 
@@ -43,7 +43,7 @@ node server.js
 
 #### IIS Manager on Windows
 
-Search `IIS_` in the windows search bar on Desktop to open the _Internet Information Services Manager_ application. Click on your `Domain name` at the top left of the application under `connections`. Click on the arrow button to open more options. Then select `sites`.
+Search `IIS` in the windows search bar on Desktop to open the _Internet Information Services Manager_ application. Click on your `Domain name` at the top left of the application under `connections`. Click on the arrow button to open more options. Then select `sites`.
 
 Right click on `sites` and `add web site ...`
 

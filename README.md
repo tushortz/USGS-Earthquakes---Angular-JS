@@ -12,7 +12,7 @@ Open the terminal and navigate to the folder where `index.html` is and run this 
 $ python -m SimpleHTTPServer 8000
 ```
 
-> Note: `$` represents the terminal prompt. You shouldn't type it in your code
+> Note: `$` represents the terminal prompt. You shouldn't type it in your code. It is also possible you may need to run this on `python 2` or find a python 3 equivalent.
 
 then you go to your web browser and type http://localhost:8000
 
@@ -44,6 +44,8 @@ node server.js
 #### IIS Manager on Windows
 
 Search `IIS` in the windows search bar on Desktop to open the _Internet Information Services Manager_ application. Click on your `Domain name` at the top left of the application under `connections`. Click on the arrow button to open more options. Then select `sites`.
+
+> If IIS doesn't pop up in the search result, search `program and features`, enable it and also enable IIS from the list of allowed program and features. 
 
 Right click on `sites` and `add web site ...`
 
